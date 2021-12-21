@@ -1,0 +1,9 @@
+rancherVersion: "v2.6.3"
+target:
+  - "overriden"
+osType:
+  - "overriden"
+chartsRepoUrl: "overriden"
+chartsBranch: "overriden"
+systemChartsRepoUrl: "overriden"
+systemChartsBranch: "overriden"

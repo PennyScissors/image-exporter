@@ -1,0 +1,32 @@
+# rancherVersion: "v2.6.3"
+# targets:
+#   - charts
+#   - systemCharts
+# osType:
+#   - linux
+#   - windows
+# chartsRepoUrl: "https://github.com/rancher/charts.git"
+# chartsBranch: "dev-v2.6"
+# systemChartsRepoUrl: "https://github.com/rancher/system-charts.git"
+# systemChartsBranch: "dev-v2.6"
+# systemChartsCommit: "74b11a0fd7b7b00034e926774fac7f57059631ec"
+
+rancherTag: "v2.6.3"
+targets:
+  - charts
+  - systemCharts
+os:
+  - linux
+  - windows
+charts:
+  repository:
+    location: "https://github.com/rancher/charts.git"
+    branch: "dev-v2.6"
+    commit: ""
+systemcharts:
+  repository:
+    location: "https://github.com/rancher/charts.git"
+    branch: "dev-v2.6"
+    commit: ""
+rke2:
+  kdmData: "http://url/to/data.json"
