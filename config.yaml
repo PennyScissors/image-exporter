@@ -30,3 +30,43 @@ systemcharts:
     commit: ""
 rke2:
   kdmData: "http://url/to/data.json"
+
+
+rancherTag: "v0.0.0"
+os:
+  linux: true
+  windows: true
+
+core:
+  enabled: true
+
+rancher:
+  enabled: true
+
+charts:
+  enabled: true
+  repository:
+    location: "https://github.com/rancher/charts.git"
+    branch: "release-v2.6"
+  monitoring:
+    enabled: true
+  istio:
+    enabled: true
+
+systemCharts:
+  enabled: true
+  repository:
+    location: "https://github.com/rancher/charts.git"
+    branch: "release-v2.6"
+  monitoring:
+    enabled: true
+  istio:
+    enabled: true
+
+rke:
+  enabled: true
+  kdmData: "https://url/to/data.json"
+
+rke2:
+  enabled: true
+  kdmData: "https://url/to/data.json"
